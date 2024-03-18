@@ -9,10 +9,10 @@ public class Logic {
         String[] itemBuild = {"Линза", "Урна", "Блинк", "Аганим", "Глимер"};
 
         questions.partOneZeroQuestions();
-        String choosePart = Util.inputString("");
-        if (choosePart.equals("Аппарат")) {
+        String selectPart = Util.inputString("");
+        if (selectPart.equals("Аппарат")) {
 
-            Util.message("Вы выбрали" + choosePart);
+            Util.message("Вы выбрали" + selectPart);
             questions.partOneFirstQuestions();
 
             int pos = Util.inputInt("Позиция :",1,5);
