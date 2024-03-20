@@ -10,6 +10,9 @@ public class Answer {
     public void partOneAnswer3() {
         Util.message("Успех,правильный выбор!");
     }
+    public void idemNaHren() {
+        Util.message("Идем нахрен и удаляем игру");
+    }
 
     public void partOneAnswer4() {
         Util.message("Поздравляю, ты якорь, у тебя получилось проиграть!");
